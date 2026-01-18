@@ -67,7 +67,7 @@ spec:
                         returnStdout: true
                     ).trim()
                     
-                    echo "Branch: ${env.GIT_BRANCH}"
+                    echo "branch: ${env.GIT_BRANCH}"
                     echo "Commit: ${env.GIT_COMMIT_SHORT}"
                 }
             }
